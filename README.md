@@ -7,19 +7,27 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 ## Data Pipeline
 
 ● Exploratory Data Analysis (EDA): In this part we have done some EDA on the features to see the trend.
+
     The key takeaway from the EDA and Modeling are-
+    
     * Bike rental count is strongly correlated with the time of the day, with weaker dependence on the temperature and humidity.
+    
     * There are 2 rental patterns across the day in bike rentals count-
+    
         1) On a Working Day where the rental count high at peak office hours (8am and 5pm) and
+        
         2) On a Non-working day where rental count is more or less uniform across the day with a peak at around noon.● Data Processing: In this part we went through each            attributes and encoded the categorical features.
 
 ● Model Creation: Finally in this part we created the various models. These various models are being analysed and we tried to study various models so as to get the best performing model for our project.
+
 ● Data Processing: In this part we went through each attributes and encoded the categorical features.
 
 ## Observations
 
 ● 1: In the Model Evaluation Matrices table, Linear Regression is not giving great results.
+
 ● 2: Random forest & GBR have performed equally good in terms of adjusted r2.
+
 ● 3: We are getting the best results from Gradient Boost Ensemble Technique.
 
 ## Conclusions
